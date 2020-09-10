@@ -45,7 +45,7 @@ public class SynchronizedDemo1 {
             }
         }
     }
-
+//
 
     public static void main(String[] args) {
         final SynchronizedDemo1 demo1=new SynchronizedDemo1();
