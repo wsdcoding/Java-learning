@@ -2,7 +2,7 @@
  * @Description: StringTest
  * @Authror wsdcoding
  */
-public class StringTest {
+public class CPUCacheTest {
     private static int length1 = 1024 * 1024;
     private static int length2 = 6;
     private static int runs = 100;
@@ -18,7 +18,7 @@ public class StringTest {
                 array[i][j] = 1;
             }
         }
-        System.out.println("数组初始化完毕");
+        System.out.println("init array ------ ");
 
         long sum = 0L;
         long start = System.currentTimeMillis();
@@ -31,7 +31,7 @@ public class StringTest {
         }
         long end = System.currentTimeMillis();
         System.out.println("sum:" + sum);
-        System.out.println("第一次add：耗时 " + (end - start));
+        System.out.println("first added times： " + (end - start));
 
         long sum2 = 0L;
         long start2 = System.currentTimeMillis();
