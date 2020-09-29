@@ -46,5 +46,8 @@ public class CPUCacheTest {
         System.out.println("sum:" + sum2);
         System.out.println("第二次add：耗时 " + (end2 - start2));
     }
+
+
+
 }
 
